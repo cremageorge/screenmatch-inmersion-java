@@ -15,6 +15,7 @@ public class Main {
                 """;
         double mediaEvaluacion = (4.5 + 4.8 + 3) / 3;
         double mediaEvaluacionUsuario = 0;
+        int i = 0;
 
         System.out.println("Película: " + nombre);
         System.out.println("Fecha Lanzamiento: " + fechaDeLanzamiento);
@@ -27,13 +28,23 @@ public class Main {
         } else {
             System.out.println("Película Retro que vale la pena ver");
         }
+        //EJEMPLO CON FOR
+        //for (int i = 0; i < 3; i++) {
+        //    Scanner teclado = new Scanner(System.in);
+        //    System.out.println("Ingresa la nota que le darías a Matrix");
+        //    double notaMatrix = teclado.nextDouble();
+        //    mediaEvaluacionUsuario = mediaEvaluacionUsuario + notaMatrix;
+        //}
 
-        for (int i = 0; i < 3; i++) {
+        //EJEMPLO CON WHILE
+        while (i < 3) {
             Scanner teclado = new Scanner(System.in);
-            System.out.println("Ingresa la nota que le darías a Matrix");
+            System.out.println("Ingrese la nota que le darías a Matrix");
             double notaMatrix = teclado.nextDouble();
             mediaEvaluacionUsuario = mediaEvaluacionUsuario + notaMatrix;
+            i = i + 1;
         }
+
         System.out.println("La media de la película " +
                 "Matrix calculada por el usuario es: " + mediaEvaluacionUsuario / 3);
     }
