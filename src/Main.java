@@ -16,6 +16,7 @@ public class Main {
         double mediaEvaluacion = (4.5 + 4.8 + 3) / 3;
         double mediaEvaluacionUsuario = 0;
         int i = 0;
+        double notaMatrix;
 
         System.out.println("Película: " + nombre);
         System.out.println("Fecha Lanzamiento: " + fechaDeLanzamiento);
@@ -36,13 +37,26 @@ public class Main {
         //    mediaEvaluacionUsuario = mediaEvaluacionUsuario + notaMatrix;
         //}
 
-        //EJEMPLO CON WHILE
-        while (i < 3) {
+        //EJEMPLO CON WHILE - FORMA 1
+        //while (i < 3) {
+        //    Scanner teclado = new Scanner(System.in);
+        //    System.out.println("Ingrese la nota que le darías a Matrix");
+        //    //double notaMatrix = teclado.nextDouble();
+        //    notaMatrix = teclado.nextDouble();
+        //    mediaEvaluacionUsuario = mediaEvaluacionUsuario + notaMatrix;
+        //    i = i + 1;
+        //}
+
+        //EJEMPLO CON WHILE - FORMA 2
+        while (true) {
             Scanner teclado = new Scanner(System.in);
             System.out.println("Ingrese la nota que le darías a Matrix");
-            double notaMatrix = teclado.nextDouble();
+            notaMatrix = teclado.nextDouble();
             mediaEvaluacionUsuario = mediaEvaluacionUsuario + notaMatrix;
             i = i + 1;
+            if (i == 3) {
+                break;
+            }
         }
 
         System.out.println("La media de la película " +
