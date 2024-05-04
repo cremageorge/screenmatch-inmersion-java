@@ -45,10 +45,9 @@ while (i < 3) {
    * Codificar en orden, que estén alineados cada bloque que vayamos agregando
    * No olvidar poner siempre el ; al final de cada sentencia
 2. Guardar el programa cada cierto tiempo, para evitar pérdida de nuestros avances
-
-
+---
+### IMAGEN DE LA EJECUCIÓN DEL PROGRAMA (dar click para ver en mayor tamaño en ventana adicional) 
 ![RETO](https://github.com/cremageorge/screenmatch-inmersion-java/assets/168378999/728b00ef-64d7-4f6a-abfb-ee24f4a52b30)
-
 
 [VISITAR PÁGINA DE ALURA](https://www.aluracursos.com/)
 >Agradecido con el apoyo brindado por Génesis y Christian
