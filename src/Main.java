@@ -41,7 +41,6 @@ public class Main {
         //while (i < 3) {
         //    Scanner teclado = new Scanner(System.in);
         //    System.out.println("Ingrese la nota que le darías a Matrix");
-        //    //double notaMatrix = teclado.nextDouble();
         //    notaMatrix = teclado.nextDouble();
         //    mediaEvaluacionUsuario = mediaEvaluacionUsuario + notaMatrix;
         //    i = i + 1;
